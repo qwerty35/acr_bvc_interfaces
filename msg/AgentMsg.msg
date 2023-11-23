@@ -1,0 +1,9 @@
+uint64 agent_id
+uint64 msg_idx
+float64 radius
+geometry_msgs/Point position
+uint64 shared_constraint_idx
+HalfSpace shared_halfspace
+HalfSpace[] halfspaces
+float64 latest_planning_time
+uint64 latest_accepted_constraint_idx
