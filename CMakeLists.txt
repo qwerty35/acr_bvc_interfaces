@@ -12,6 +12,9 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HalfSpace.msg"
   "msg/AgentMsg.msg"
+  "msg/Segment.msg"
+  "msg/Trajectory.msg"
+  "msg/SimulatorMsg.msg"
   DEPENDENCIES geometry_msgs)
 
 if(BUILD_TESTING)
