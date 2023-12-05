@@ -15,6 +15,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Segment.msg"
   "msg/Trajectory.msg"
   "msg/FullState.msg"
+  "srv/StartPlanning.srv"
+  "srv/StopPlanning.srv"
   DEPENDENCIES geometry_msgs)
 
 if(BUILD_TESTING)
